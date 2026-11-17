@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            background-color: rgb(218, 238, 255);
+        }
+        fieldset {
+            border-color: aquamarine;
+        }
+    </style>
+<body>
+    <form>
+        <fieldset>
+         <legend>dados pessoais</legend>
+        <label for="nome_completo">Nome completo: </label>
+        <input type="text" id="nome_completo" name="nome_completo" placeholder="Digite seu nome">
+    
+</form>
+    
+    <form>
+        
+        <label for="idade_atual">Idade Atual: </label>
+        <input type="text" id="idade_atual" name="idade_atual" placeholder="Digite sua idade">
+   
+ </form>
+    
+    <form>
+    
+        <label for="nome_da_mae">Nome da Mãe: </label>
+        <input type="text" id="nome_da_mae" name="nome_da_mae" placeholder="Digite o nome da sua Mãe">
+</form>
+    <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+         
+         <label for="uf">Unidade Federativa</label>
+         <select name="uf" id="uf">
+              <option value="sp">SP</option>
+              <option value="sc">SC</option>
+              <option value="rs">RS</option>
+              <option value="pr">PR</option>
+              <option value="bh">BH</option>
+              <option value="ac">AC</option>
+              <option value="am">AM</option>
+
+         </select>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+    </form>
+</body>
+<body>
+    <form>
+        
+       <fieldset>
+        <legend>Gênero</legend>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="Masculino" name="genero" value="M">
+        
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="feminino" name="genero" value="M"> 
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Cursos</legend>
+        <label for="ti"> TI </label>
+        <input type="checkbox" id="ti" name="cursos" value="TI">
+
+        <label for="mecanica-a">Mecânica aeronáutica</label>
+        <input type="checkbox" id="mecanica-a" name="cursos" value="mecanica-a">
+    </fieldset>
+    
+    <input type="submit" value="Enviar">
+   </form>
+ </body>
+<html>

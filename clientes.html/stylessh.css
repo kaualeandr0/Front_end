@@ -1,0 +1,11 @@
+.viewport{
+    background-color: rgb(130, 94, 70);
+}
+
+th, tr{
+    border: solid 1px
+}
+
+td{
+    border: dotted 5px
+}
